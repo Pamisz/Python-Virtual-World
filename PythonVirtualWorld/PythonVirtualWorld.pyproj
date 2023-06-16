@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>021bb43c-3a76-4e78-b8cf-2f24547b46af</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonVirtualWorld.py</StartupFile>
+    <StartupFile>root.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,35 +21,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Gameplay\Organisms\Animal.py" />
-    <Compile Include="Gameplay\Organisms\Animals\Antelope.py" />
-    <Compile Include="Gameplay\Organisms\Animals\CyberSheep.py" />
-    <Compile Include="Gameplay\Organisms\Animals\Fox.py" />
-    <Compile Include="Gameplay\Organisms\Animals\Human.py" />
-    <Compile Include="Gameplay\Organisms\Animals\Sheep.py" />
-    <Compile Include="Gameplay\Organisms\Animals\Turtle.py" />
-    <Compile Include="Gameplay\Organisms\Animals\Wolf.py" />
-    <Compile Include="Gameplay\Organisms\Organism.py" />
-    <Compile Include="Gameplay\Organisms\Plant.py" />
-    <Compile Include="Gameplay\Organisms\Plants\Dandelion.py" />
-    <Compile Include="Gameplay\Organisms\Plants\Grass.py" />
-    <Compile Include="Gameplay\Organisms\Plants\Guarana.py" />
-    <Compile Include="Gameplay\Organisms\Plants\NightShade.py" />
-    <Compile Include="Gameplay\Organisms\Plants\PineBorsht.py" />
-    <Compile Include="Gameplay\World.py" />
-    <Compile Include="Gui\Application.py" />
-    <Compile Include="PythonVirtualWorld.py" />
-    <Compile Include="Tools\File.py" />
-    <Compile Include="Tools\MyVector.py" />
-    <Compile Include="Tools\Notifications.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Gameplay\Organisms\" />
-    <Folder Include="Gameplay\Organisms\Animals\" />
-    <Folder Include="Gameplay\Organisms\Plants\" />
-    <Folder Include="Gui\" />
-    <Folder Include="Gameplay\" />
-    <Folder Include="Tools\" />
+    <Compile Include="Animal.py" />
+    <Compile Include="Antelope.py" />
+    <Compile Include="CyberSheep.py" />
+    <Compile Include="Fox.py" />
+    <Compile Include="Human.py" />
+    <Compile Include="Sheep.py" />
+    <Compile Include="Turtle.py" />
+    <Compile Include="Wolf.py" />
+    <Compile Include="Organism.py" />
+    <Compile Include="Plant.py" />
+    <Compile Include="Dandelion.py" />
+    <Compile Include="Grass.py" />
+    <Compile Include="Guarana.py" />
+    <Compile Include="NightShade.py" />
+    <Compile Include="PineBorsht.py" />
+    <Compile Include="World.py" />
+    <Compile Include="Application.py" />
+    <Compile Include="root.py" />
+    <Compile Include="File.py" />
+    <Compile Include="MyVector.py" />
+    <Compile Include="Notifications.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
